@@ -1,0 +1,534 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# global-library_1.0pF
+#
+DEF global-library_1.0pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_1.0pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-17745-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GCM1555C1H1R0CA16J" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 1PF 50V C0G/NP0 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_1.5pF
+#
+DEF global-library_1.5pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_1.5pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-16452-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GCM1555C1H1R5JA16D" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 1.5PF 50V C0G/NP0 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_100k
+#
+DEF global-library_100k R 0 10 N Y 1 F N
+F0 "R" 25 100 50 H V L CNN
+F1 "global-library_100k" 25 -100 50 H V L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "311-100KLRCT-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "RC0402FR-07100KL" 0 0 50 H I C CNN "MPN"
+F6 "Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Category"
+F7 "RES SMD 100K OHM 1% 1/16W 0402" 0 0 50 H I C CNN "Description"
+F8 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_100nF
+#
+DEF global-library_100nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_100nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-14603-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GRM155R71E104KE14J" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 0.1UF 25V X7R 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_15pF
+#
+DEF global-library_15pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_15pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-11191-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GJM1555C1H150FB01D" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 15PF 50V C0G/NP0 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_1k
+#
+DEF global-library_1k R 0 10 N Y 1 F N
+F0 "R" 25 100 50 H V L CNN
+F1 "global-library_1k" 25 -100 50 H V L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAG1254CT-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "RC0402FR-071KP" 0 0 50 H I C CNN "MPN"
+F6 "Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Category"
+F7 "RES SMD 1K OHM 1% 1/16W 0402" 0 0 50 H I C CNN "Description"
+F8 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_1nF
+#
+DEF global-library_1nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_1nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-4761-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GCM155R71H102KA37D" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 1000PF 50V X7R 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_22pF
+#
+DEF global-library_22pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_22pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-16451-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GCM1555C1H220FA16D" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 22PF 50V C0G/NP0 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_3.3nH
+#
+DEF global-library_3.3nH L 0 10 N Y 1 F N
+F0 "L" 25 100 50 H V L CNN
+F1 "global-library_3.3nH" 25 -100 50 H V L CNN
+F2 "Inductor_SMD:L_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-11743-2-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "LQP15MN3N3W02D" 0 0 50 H I C CNN "MPN"
+F6 "Fixed Inductors" 0 0 50 H I C CNN "Category"
+F7 "3.3nH Unshielded Thick Film Inductor 190mA 400mOhm Max 0402 (1005 Metric)" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 1 1 0 N 0 0 0 50
+A 0 75 25 -899 899 1 1 0 N 0 50 0 100
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_47nF
+#
+DEF global-library_47nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "global-library_47nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-10702-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "GRM155R71H473KE14D" 0 0 50 H I C CNN "MPN"
+F6 "Ceramic Capacitors" 0 0 50 H I C CNN "Category"
+F7 "CAP CER 0.047UF 50V X7R 0402" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_ANTENNA-IFA-2.4GHZ
+#
+DEF global-library_ANTENNA-IFA-2.4GHZ AE 0 40 N N 1 F N
+F0 "AE" -75 75 50 H V R CNN
+F1 "global-library_ANTENNA-IFA-2.4GHZ" -75 0 50 H V R CNN
+F2 "global-library:ANTENNA-IFA-2.4GHZ" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -100 100 -100 N
+P 2 0 1 10 0 100 0 -150 N
+P 3 0 1 10 50 100 0 -100 -50 100 N
+X A 1 0 -200 100 U 50 50 1 1 B
+X G 2 100 -200 100 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# global-library_BAL-NRF01D3
+#
+DEF global-library_BAL-NRF01D3 GN 0 40 Y Y 1 F N
+F0 "GN" -300 601 50 H V L BNN
+F1 "global-library_BAL-NRF01D3" -300 -701 50 H V L BNN
+F2 "global-library:FCBGA-5N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "497-13637-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "BAL-NRF01D3" 0 0 50 H I C CNN "MPN"
+F6 "Balun" 0 0 50 H I C CNN "Category"
+F7 "BALUN 2.4GHZ-2.54GHZ 5WFBGA" 0 0 50 H I C CNN "Description"
+F8 "STMicroelectronics" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+P 2 0 0 10 -300 -500 -300 500 N
+P 2 0 0 10 -300 500 300 500 N
+P 2 0 0 10 300 -500 -300 -500 N
+P 2 0 0 10 300 500 300 -500 N
+X SE 1B -500 -100 200 R 40 40 0 0 B
+X GND 2A 500 -400 200 L 40 40 0 0 P
+X VCC 2C 500 400 200 L 40 40 0 0 W
+X DIFF1 3A -500 100 200 R 40 40 0 0 B
+X DIFF2 3C -500 0 200 R 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# global-library_CONN4PROG
+#
+DEF global-library_CONN4PROG J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "global-library_CONN4PROG" 0 -300 50 H V C CNN
+F2 "global-library:CONN4PROG" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+X Pin_4 4 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_CR2032_CLIP2
+#
+DEF global-library_CR2032_CLIP2 BAT 0 40 N Y 1 F N
+F0 "BAT" -50 150 60 H V R CNN
+F1 "global-library_CR2032_CLIP2" -50 -150 60 H V R CNN
+F2 "global-library:CR2032_CLIP2" 200 200 60 H I L CNN
+F3 "" 200 300 60 V I L CNN
+F4 "BK-912-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BK-912" 200 500 60 H I L CNN "MPN"
+F6 "Battery Products" 200 600 60 H I L CNN "Category"
+F7 "Battery Holders, Clips, Contacts" 200 700 60 H I L CNN "Family"
+F8 "BATTERY RETAINER COIN 20MM SMD" 200 1000 60 H I L CNN "Description"
+F9 "MPD (Memory Protection Devices)" 200 1100 60 H I L CNN "Manufacturer"
+F10 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -90 20 90 10 1 1 0 F
+S -62 -3 58 -23 1 1 0 F
+P 2 1 1 0 0 -20 0 -50 N
+P 2 1 1 0 0 20 0 50 N
+P 2 1 1 10 20 85 60 85 N
+P 2 1 1 10 40 105 40 65 N
+X + 1 0 150 100 D 50 50 1 1 P
+X - 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# global-library_ECS-_327-12_5-34B-TR
+#
+DEF global-library_ECS-_327-12_5-34B-TR XTAL 0 40 Y Y 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "global-library_ECS-_327-12_5-34B-TR" 0 -150 50 H V C CNN
+F2 "global-library:SMD-2_3.2x1.5mmG" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "XC1617CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ECS-.327-12.5-34B-TR" 200 500 60 H I L CNN "MPN"
+F6 "Crystals, Oscillators, Resonators" 200 600 60 H I L CNN "Category"
+F7 "Crystals" 200 700 60 H I L CNN "Family"
+F8 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ecs-inc/ECS-.327-12.5-34B-TR/XC1617CT-ND/1693786" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CRYSTAL 32.7680KHZ 12.5PF SMD" 200 1000 60 H I L CNN "Description"
+F11 "ECS Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -25 75 25 -75 1 1 0 F
+P 2 1 1 0 -50 75 -50 -75 N
+P 2 1 1 0 50 75 50 -75 N
+X ~ 1 -150 0 100 R 50 50 1 1 B
+X ~ 2 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# global-library_FDV301N_G
+#
+DEF global-library_FDV301N_G Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "global-library_FDV301N_G" 136 0 60 V V C CNN
+F2 "global-library:SOT-23-3_G" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "FDV301NCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "FDV301N" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/FDV301N/FDV301NCT-ND/458954" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 25V 220MA SOT-23" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# global-library_NRF51822-QFAA-T_G
+#
+DEF global-library_NRF51822-QFAA-T_G U 0 40 Y Y 1 F N
+F0 "U" -650 1800 60 H V C CNN
+F1 "global-library_NRF51822-QFAA-T_G" 900 -2400 60 H V C CNN
+F2 "global-library:QFN-48-1EP_6x6mmG" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "1490-1024-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NRF51822-QFAA-T" 200 500 60 H I L CNN "MPN"
+F6 "RF/IF and RFID" 200 600 60 H I L CNN "Category"
+F7 "RF Transceiver ICs" 200 700 60 H I L CNN "Family"
+F8 "http://infocenter.nordicsemi.com/pdf/nRF51822_PB_v2.5.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/nordic-semiconductor-asa/NRF51822-QFAA-T/1490-1024-ND/4626388" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC RF TXRX+MCU BLUETOOTH 48VFQFN" 200 1000 60 H I L CNN "Description"
+F11 "Nordic Semiconductor ASA" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -800 1700 400 -2100 0 1 0 f
+X VDD 1 -200 1900 200 D 50 50 1 1 W
+X P0.06/AIN7/AREF1 10 -1000 900 200 R 50 50 1 1 B
+X P0.07 11 -1000 800 200 R 50 50 1 1 B
+X VDD 12 -100 1900 200 D 50 50 1 1 W
+X VSS 13 -100 -2300 200 U 50 50 1 1 W
+X P0.08 14 -1000 700 200 R 50 50 1 1 B
+X P0.09 15 -1000 600 200 R 50 50 1 1 B
+X P0.10 16 -1000 500 200 R 50 50 1 1 B
+X P0.11 17 -1000 400 200 R 50 50 1 1 B
+X P0.12 18 -1000 300 200 R 50 50 1 1 B
+X P0.13 19 -1000 200 200 R 50 50 1 1 B
+X DCC 2 600 600 200 L 50 50 1 1 w
+X P0.14 20 -1000 100 200 R 50 50 1 1 B
+X P0.15 21 -1000 0 200 R 50 50 1 1 B
+X P0.16 22 -1000 -100 200 R 50 50 1 1 B
+X SWDIO/nRESET 23 -1000 -200 200 R 50 50 1 1 B
+X SWDCLK 24 -1000 -300 200 R 50 50 1 1 I
+X P0.17 25 -1000 -400 200 R 50 50 1 1 B
+X P0.18 26 -1000 -500 200 R 50 50 1 1 B
+X P0.19 27 -1000 -600 200 R 50 50 1 1 B
+X P0.20 28 -1000 -700 200 R 50 50 1 1 B
+X DEC2 29 0 1900 200 D 50 50 1 1 W
+X P0.30 3 -1000 1600 200 R 50 50 1 1 B
+X VDD_PA 30 600 500 200 L 50 50 1 1 w
+X ANT1 31 -1000 -800 200 R 50 50 1 1 I
+X ANT2 32 -1000 -900 200 R 50 50 1 1 I
+X VSS 33 0 -2300 200 U 50 50 1 1 W
+X VSS 34 100 -2300 200 U 50 50 1 1 W
+X AVDD 35 100 1900 200 D 50 50 1 1 W
+X AVDD 36 200 1900 200 D 50 50 1 1 W
+X XC1 37 -1000 -1000 200 R 50 50 1 1 I
+X XC2 38 -1000 -1100 200 R 50 50 1 1 I
+X DEC1 39 300 1900 200 D 50 50 1 1 W
+X P0.00/AREF0 4 -1000 1500 200 R 50 50 1 1 B
+X P0.21 40 -1000 -1200 200 R 50 50 1 1 B
+X P0.22 41 -1000 -1300 200 R 50 50 1 1 B
+X P0.23 42 -1000 -1400 200 R 50 50 1 1 B
+X P0.24 43 -1000 -1500 200 R 50 50 1 1 B
+X P0.25 44 -1000 -1600 200 R 50 50 1 1 B
+X P0.26/AIN0/XL2 45 -1000 -1700 200 R 50 50 1 1 B
+X P0.27/AIN1/XL1 46 -1000 -1800 200 R 50 50 1 1 B
+X P0.28 47 -1000 -1900 200 R 50 50 1 1 B
+X P0.29 48 -1000 -2000 200 R 50 50 1 1 B
+X EP_GND 49 300 -2300 200 U 50 50 1 1 W
+X P0.01/AIN2 5 -1000 1400 200 R 50 50 1 1 B
+X P0.02/AIN3 6 -1000 1300 200 R 50 50 1 1 B
+X P0.03/AIN4 7 -1000 1200 200 R 50 50 1 1 B
+X P0.04/AIN5 8 -1000 1100 200 R 50 50 1 1 B
+X P0.05/AIN6 9 -1000 1000 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# global-library_NX2520SA-16MHZ-STD-CSW-5
+#
+DEF global-library_NX2520SA-16MHZ-STD-CSW-5 XTAL 0 40 Y Y 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "global-library_NX2520SA-16MHZ-STD-CSW-5" 0 -150 50 H V C CNN
+F2 "global-library:SOIC254P1016X440-4N" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "644-1169-2-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NX2520SA-16MHZ-STD-CSW-5" 200 500 60 H I L CNN "MPN"
+F6 "Crystals, Oscillators, Resonators" 200 600 60 H I L CNN "Category"
+F7 "Crystals" 200 700 60 H I L CNN "Family"
+F8 "CRYSTAL 16.0000MHZ 8PF SMD" 200 1000 60 H I L CNN "Description"
+F9 "NDK America, Inc." 200 1100 60 H I L CNN "Manufacturer"
+F10 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -25 75 25 -75 1 1 0 F
+P 2 1 1 0 -50 75 -50 -75 N
+P 2 1 1 0 50 75 50 -75 N
+X ~ 1 -150 0 100 R 50 50 1 1 B
+X ~ 2 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# global-library_PKMCS0909E4000-R1
+#
+DEF global-library_PKMCS0909E4000-R1 BZ 0 10 N Y 1 F N
+F0 "BZ" 25 100 50 H V L CNN
+F1 "global-library_PKMCS0909E4000-R1" 25 -100 50 H V L CNN
+F2 "global-library:Piezo_9x9mm_PKLCS1212E40A1-R1" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "490-9647-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F5 "PKMCS0909E4000-R1" 0 0 50 H I C CNN "MPN"
+F6 "Alarms, Buzzers, and Sirens" 0 0 50 H I C CNN "Category"
+F7 "AUDIO PIEZO TRANSDUCER 12.5V SMD" 0 0 50 H I C CNN "Description"
+F8 "Murata" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+A 200 0 71 450 -450 1 1 0 N 250 50 250 -50
+A 200 0 112 634 -634 1 1 0 N 250 100 250 -100
+S 0 100 100 -100 1 1 0 f
+P 5 1 1 0 100 50 200 100 200 -100 100 -50 100 50 f
+X ~ 1 -100 50 100 R 50 50 1 1 I
+X ~ 2 -100 -50 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

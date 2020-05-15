@@ -1,0 +1,978 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Bluetooth Tracker"
+Date "2020-04-22"
+Rev "A"
+Comp "Andrew Li"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1900 4900 1700 4900
+Wire Wire Line
+	1700 4900 1700 5000
+Wire Wire Line
+	2350 4900 2350 5000
+Wire Wire Line
+	2350 5300 2350 5400
+Wire Wire Line
+	1700 5400 1700 5300
+Wire Wire Line
+	2000 5500 2000 5400
+Wire Wire Line
+	2000 5400 1700 5400
+Connection ~ 2350 4900
+Connection ~ 1700 4900
+Text Label 3000 4900 2    50   ~ 0
+XTAL_32KHZ_2
+Text Label 1100 4900 0    50   ~ 0
+XTAL_32KHZ_1
+Wire Wire Line
+	5300 1250 5300 1350
+Wire Wire Line
+	5300 1700 5300 1650
+Wire Wire Line
+	5750 1700 5750 1650
+Wire Wire Line
+	6200 1700 6200 1650
+Wire Wire Line
+	3550 1700 3550 1650
+Wire Wire Line
+	4000 1700 4000 1650
+Wire Wire Line
+	4000 1350 4000 1250
+Wire Wire Line
+	1900 6100 1700 6100
+Wire Wire Line
+	1700 6100 1700 6200
+Wire Wire Line
+	2350 6100 2350 6200
+Wire Wire Line
+	2350 6500 2350 6600
+Wire Wire Line
+	1700 6600 1700 6500
+Wire Wire Line
+	2000 6700 2000 6600
+Wire Wire Line
+	2000 6600 1700 6600
+Connection ~ 2350 6100
+Connection ~ 1700 6100
+Text Label 3050 6100 2    50   ~ 0
+XTAL_16MHZ_2
+Text Label 1000 6100 0    50   ~ 0
+XTAL_16MHZ_1
+Wire Wire Line
+	3550 1000 3900 1000
+Wire Wire Line
+	9050 4250 9050 4200
+Wire Wire Line
+	9050 3900 9050 3850
+Wire Wire Line
+	9050 3850 9300 3850
+Wire Wire Line
+	10150 3850 9850 3850
+Wire Wire Line
+	10150 3850 10150 3650
+Wire Wire Line
+	3000 1700 3000 1650
+Wire Wire Line
+	4000 1250 4550 1250
+Wire Wire Line
+	1050 1100 1650 1100
+Text Label 1300 1300 0    50   ~ 0
+SWDCLK
+Text Label 1300 1200 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	1300 1200 1650 1200
+Wire Wire Line
+	5050 1250 5050 2000
+Wire Wire Line
+	4550 1250 4550 2100
+Wire Wire Line
+	10250 3950 10250 3650
+Wire Wire Line
+	9850 3900 9850 3850
+Connection ~ 9850 3850
+Wire Wire Line
+	9850 3850 9600 3850
+Wire Wire Line
+	9850 4250 9850 4200
+Text Label 5950 1000 0    50   ~ 0
+DEC2
+Wire Wire Line
+	5050 1250 5300 1250
+Text Label 4100 1250 0    50   ~ 0
+DEC1
+Wire Wire Line
+	4750 2100 4750 2000
+Wire Wire Line
+	4750 2000 4650 2000
+Wire Wire Line
+	4650 2000 4650 2100
+Wire Wire Line
+	3550 1000 3000 1000
+Connection ~ 3550 1000
+Wire Wire Line
+	5300 1250 5550 1250
+Wire Wire Line
+	5750 1250 5750 1350
+Connection ~ 5300 1250
+Wire Wire Line
+	4950 2100 4950 2000
+Wire Wire Line
+	4950 2000 5050 2000
+Connection ~ 5050 2000
+Wire Wire Line
+	5050 2000 5050 2100
+Wire Wire Line
+	4850 1000 6200 1000
+Wire Wire Line
+	1100 4900 1700 4900
+Wire Wire Line
+	2350 4900 3000 4900
+Wire Wire Line
+	1000 6100 1700 6100
+Wire Wire Line
+	2350 6100 3050 6100
+Text Label 6850 5800 2    50   ~ 0
+XTAL_32KHZ_1
+Text Label 6850 5700 2    50   ~ 0
+XTAL_32KHZ_2
+Wire Wire Line
+	6850 5700 5850 5700
+Wire Wire Line
+	6850 5800 5850 5800
+Text Label 6850 5000 2    50   ~ 0
+XTAL_16MHZ_1
+Text Label 6850 5100 2    50   ~ 0
+XTAL_16MHZ_2
+Wire Wire Line
+	6850 5100 5850 5100
+Wire Wire Line
+	5850 5000 6850 5000
+Wire Wire Line
+	2200 4900 2350 4900
+Wire Wire Line
+	2000 5400 2350 5400
+Connection ~ 2000 5400
+Wire Wire Line
+	2200 6100 2350 6100
+Wire Wire Line
+	2000 6600 2350 6600
+Connection ~ 2000 6600
+Text Label 3450 3500 0    50   ~ 0
+VDD_PA
+Wire Wire Line
+	3450 3500 4250 3500
+NoConn ~ 4250 3400
+Wire Wire Line
+	4550 6300 4550 6350
+Wire Wire Line
+	4550 6350 4750 6350
+Wire Wire Line
+	4950 6350 4950 6300
+Wire Wire Line
+	4800 6400 4800 6350
+Connection ~ 4800 6350
+Wire Wire Line
+	4800 6350 4850 6350
+Wire Wire Line
+	4850 6300 4850 6350
+Connection ~ 4850 6350
+Wire Wire Line
+	4850 6350 4950 6350
+Wire Wire Line
+	4750 6300 4750 6350
+Connection ~ 4750 6350
+Wire Wire Line
+	4750 6350 4800 6350
+Connection ~ 3900 1000
+Wire Wire Line
+	3900 1000 4650 1000
+Connection ~ 5550 1250
+Wire Wire Line
+	5550 1250 5750 1250
+Wire Wire Line
+	6200 1000 6200 1350
+Wire Wire Line
+	4850 1000 4850 2100
+Wire Wire Line
+	3000 1000 3000 1350
+Wire Wire Line
+	3550 1000 3550 1350
+Wire Wire Line
+	4650 1000 4650 2000
+Connection ~ 4650 2000
+Wire Wire Line
+	1300 1300 1650 1300
+Wire Wire Line
+	1050 1400 1650 1400
+Wire Wire Line
+	9350 2550 9350 2150
+Wire Wire Line
+	8800 2550 8800 2450
+Wire Wire Line
+	8650 2050 8800 2050
+Wire Wire Line
+	8800 2050 8800 2150
+Wire Wire Line
+	8800 2050 9050 2050
+Connection ~ 8800 2050
+Wire Wire Line
+	9600 1100 9600 1350
+Wire Wire Line
+	9600 1450 9600 1650
+Wire Wire Line
+	9600 1650 9350 1650
+Wire Wire Line
+	9100 1200 9100 1100
+Wire Wire Line
+	9100 1100 9400 1100
+Wire Wire Line
+	9100 1500 9100 1650
+Wire Wire Line
+	9350 1750 9350 1650
+Connection ~ 9350 1650
+Wire Wire Line
+	9350 1650 9100 1650
+Wire Wire Line
+	8350 2050 7700 2050
+Text Label 6850 4300 2    50   ~ 0
+SWDCLK
+Text Label 6850 4200 2    50   ~ 0
+SWDIO
+Text Label 7700 2050 0    50   ~ 0
+PIEZO_DRIVE
+Text Label 6850 2600 2    50   ~ 0
+PIEZO_DRIVE
+Wire Wire Line
+	6850 2600 5850 2600
+NoConn ~ 5850 2400
+NoConn ~ 5850 2500
+NoConn ~ 5850 2700
+NoConn ~ 5850 2800
+NoConn ~ 5850 2900
+NoConn ~ 5850 3000
+NoConn ~ 5850 3100
+NoConn ~ 5850 3200
+NoConn ~ 5850 3300
+NoConn ~ 5850 3400
+NoConn ~ 5850 3500
+NoConn ~ 5850 3600
+NoConn ~ 5850 3700
+NoConn ~ 5850 3800
+NoConn ~ 5850 3900
+NoConn ~ 5850 4000
+NoConn ~ 5850 4100
+NoConn ~ 5850 4400
+NoConn ~ 5850 4500
+NoConn ~ 5850 4600
+NoConn ~ 5850 4700
+NoConn ~ 5850 5200
+NoConn ~ 5850 5300
+NoConn ~ 5850 5400
+NoConn ~ 5850 5500
+NoConn ~ 5850 5600
+NoConn ~ 5850 5900
+NoConn ~ 5850 6000
+Connection ~ 9400 1100
+Wire Wire Line
+	9400 1100 9600 1100
+Wire Wire Line
+	5850 4200 6850 4200
+Wire Wire Line
+	5850 4300 6850 4300
+Text Label 6850 4900 2    50   ~ 0
+ANT2
+Text Label 6850 4800 2    50   ~ 0
+ANT1
+Wire Wire Line
+	7450 5000 7300 5000
+Wire Wire Line
+	7300 5000 7300 5900
+Wire Wire Line
+	8850 5900 8850 3850
+Wire Wire Line
+	8850 3850 9050 3850
+Connection ~ 9050 3850
+Wire Wire Line
+	7300 5900 8850 5900
+Wire Wire Line
+	5850 4800 7000 4800
+Wire Wire Line
+	5850 4900 7000 4900
+Wire Wire Line
+	7000 4800 7100 4900
+Wire Wire Line
+	7100 4900 7450 4900
+Wire Wire Line
+	7000 4900 7100 4800
+Wire Wire Line
+	7100 4800 7450 4800
+$Comp
+L power:GND #PWR08
+U 1 1 5EA011F6
+P 8450 5300
+F 0 "#PWR08" H 8450 5050 50  0001 C CNN
+F 1 "GND" H 8450 5150 50  0000 C CNN
+F 2 "" H 8450 5300 50  0001 C CNN
+F 3 "" H 8450 5300 50  0001 C CNN
+	1    8450 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5EA005EB
+P 8450 4500
+F 0 "#PWR03" H 8450 4350 50  0001 C CNN
+F 1 "VCC" H 8450 4650 50  0000 C CNN
+F 2 "" H 8450 4500 50  0001 C CNN
+F 3 "" H 8450 4500 50  0001 C CNN
+	1    8450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:BAL-NRF01D3 GN1
+U 1 1 5E9F68AC
+P 7950 4900
+F 0 "GN1" H 7950 5567 50  0000 C CNN
+F 1 "BAL-NRF01D3" H 7650 4199 50  0000 L BNN
+F 2 "global-library:FCBGA-5N" H 7950 4900 50  0001 L BNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/88/54/7c/fd/6d/9c/46/74/DM00055606.pdf/files/DM00055606.pdf/jcr:content/translations/en.DM00055606.pdf" H 7950 4900 50  0001 L BNN
+F 4 "497-13637-1-ND" H 7950 4900 50  0001 C CNN "Digi-Key_PN"
+F 5 "BAL-NRF01D3" H 7950 4900 50  0001 C CNN "MPN"
+F 6 "Balun" H 7950 4900 50  0001 C CNN "Category"
+F 7 "BALUN 2.4GHZ-2.54GHZ 5WFBGA" H 7950 4900 50  0001 C CNN "Description"
+F 8 "STMicroelectronics" H 7950 4900 50  0001 C CNN "Manufacturer"
+	1    7950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:FDV301N_G Q1
+U 1 1 5E9D8B8A
+P 9350 1950
+F 0 "Q1" H 9458 2003 60  0000 L CNN
+F 1 "FDV301N_G" V 9486 1950 60  0001 C CNN
+F 2 "global-library:SOT-23-3_G" H 9550 2150 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 9550 2250 60  0001 L CNN
+F 4 "FDV301NCT-ND" H 9550 2350 60  0001 L CNN "Digi-Key_PN"
+F 5 "FDV301N" H 9550 2450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9550 2550 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9550 2650 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 9550 2750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/FDV301N/FDV301NCT-ND/458954" H 9550 2850 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 25V 220MA SOT-23" H 9550 2950 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9550 3050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9550 3150 60  0001 L CNN "Status"
+	1    9350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:NX2520SA-16MHZ-STD-CSW-5 XTAL2
+U 1 1 5E9C4759
+P 2050 6100
+F 0 "XTAL2" H 2050 6250 50  0000 C CNN
+F 1 "NX2520SA-16MHZ-STD-CSW-5" H 2050 5950 50  0001 C CNN
+F 2 "global-library:SOIC254P1016X440-4N" H 2250 6300 60  0001 L CNN
+F 3 "https://www.ndk.com/images/products/catalog/c_NX2520SA-STD-CSW-5_e.pdf" H 2250 6400 60  0001 L CNN
+F 4 "644-1169-2-ND" H 2250 6500 60  0001 L CNN "Digi-Key_PN"
+F 5 "NX2520SA-16MHZ-STD-CSW-5" H 2250 6600 60  0001 L CNN "MPN"
+F 6 "Crystals, Oscillators, Resonators" H 2250 6700 60  0001 L CNN "Category"
+F 7 "Crystals" H 2250 6800 60  0001 L CNN "Family"
+F 8 "CRYSTAL 16.0000MHZ 8PF SMD" H 2250 7100 60  0001 L CNN "Description"
+F 9 "NDK America, Inc." H 2250 7200 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 2250 7300 60  0001 L CNN "Status"
+	1    2050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:ECS-_327-12_5-34B-TR XTAL1
+U 1 1 5E9BF795
+P 2050 4900
+F 0 "XTAL1" H 2050 5050 50  0000 C CNN
+F 1 "ECS-_327-12_5-34B-TR" H 2050 4750 50  0001 C CNN
+F 2 "global-library:SMD-2_3.2x1.5mmG" H 2250 5100 60  0001 L CNN
+F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 2250 5200 60  0001 L CNN
+F 4 "XC1617CT-ND" H 2250 5300 60  0001 L CNN "Digi-Key_PN"
+F 5 "ECS-.327-12.5-34B-TR" H 2250 5400 60  0001 L CNN "MPN"
+F 6 "Crystals, Oscillators, Resonators" H 2250 5500 60  0001 L CNN "Category"
+F 7 "Crystals" H 2250 5600 60  0001 L CNN "Family"
+F 8 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 2250 5700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ecs-inc/ECS-.327-12.5-34B-TR/XC1617CT-ND/1693786" H 2250 5800 60  0001 L CNN "DK_Detail_Page"
+F 10 "CRYSTAL 32.7680KHZ 12.5PF SMD" H 2250 5900 60  0001 L CNN "Description"
+F 11 "ECS Inc." H 2250 6000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2250 6100 60  0001 L CNN "Status"
+	1    2050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:NRF51822-QFAA-T_G U1
+U 1 1 5E9AE31B
+P 4850 4000
+F 0 "U1" H 4050 5800 60  0000 L CNN
+F 1 "NRF51822-QFAA-T_G" H 5750 1600 60  0001 C CNN
+F 2 "global-library:QFN-48-1EP_6x6mmG" H 5050 4200 60  0001 L CNN
+F 3 "http://infocenter.nordicsemi.com/pdf/nRF51822_PB_v2.5.pdf" H 5050 4300 60  0001 L CNN
+F 4 "1490-1024-ND" H 5050 4400 60  0001 L CNN "Digi-Key_PN"
+F 5 "NRF51822-QFAA-T" H 5050 4500 60  0001 L CNN "MPN"
+F 6 "RF/IF and RFID" H 5050 4600 60  0001 L CNN "Category"
+F 7 "RF Transceiver ICs" H 5050 4700 60  0001 L CNN "Family"
+F 8 "http://infocenter.nordicsemi.com/pdf/nRF51822_PB_v2.5.pdf" H 5050 4800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nordic-semiconductor-asa/NRF51822-QFAA-T/1490-1024-ND/4626388" H 5050 4900 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC RF TXRX+MCU BLUETOOTH 48VFQFN" H 5050 5000 60  0001 L CNN "Description"
+F 11 "Nordic Semiconductor ASA" H 5050 5100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5050 5200 60  0001 L CNN "Status"
+	1    4850 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L global-library:100nF C15
+U 1 1 5E9B6A40
+P 5750 1500
+F 0 "C15" H 5865 1546 50  0000 L CNN
+F 1 "100nF" H 5775 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5788 1350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 5750 1500 50  0001 C CNN
+F 4 "490-14603-1-ND" H 5750 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM155R71E104KE14J" H 5750 1500 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 5750 1500 50  0001 C CNN "Category"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 5750 1500 50  0001 C CNN "Description"
+F 8 "Murata" H 5750 1500 50  0001 C CNN "Manufacturer"
+	1    5750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:CR2032_CLIP2 BAT1
+U 1 1 5E9B197E
+P 1300 3300
+F 0 "BAT1" H 1418 3353 60  0000 L CNN
+F 1 "CR2032_CLIP2" H 1250 3150 60  0000 R CNN
+F 2 "global-library:CR2032_CLIP2" H 1500 3500 60  0001 L CNN
+F 3 "https://www.memoryprotectiondevices.com/datasheets/BK-912-datasheet.pdf" V 1500 3600 60  0001 L CNN
+F 4 "BK-912-ND" H 1500 3700 60  0001 L CNN "Digi-Key_PN"
+F 5 "BK-912" H 1500 3800 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 1500 3900 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 1500 4000 60  0001 L CNN "Family"
+F 8 "BATTERY RETAINER COIN 20MM SMD" H 1500 4300 60  0001 L CNN "Description"
+F 9 "MPD (Memory Protection Devices)" H 1500 4400 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 1500 4500 60  0001 L CNN "Status"
+	1    1300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:PKMCS0909E4000-R1 BZ1
+U 1 1 5E99E185
+P 9700 1400
+F 0 "BZ1" H 10040 1446 50  0000 L CNN
+F 1 "PKMCS0909E4000-R1" H 9725 1300 50  0001 L CNN
+F 2 "global-library:Piezo_9x9mm_PKLCS1212E40A1-R1" H 9738 1250 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx" H 9700 1400 50  0001 C CNN
+F 4 "490-9647-1-ND" H 9700 1400 50  0001 C CNN "Digi-Key_PN"
+F 5 "PKMCS0909E4000-R1" H 9700 1400 50  0001 C CNN "MPN"
+F 6 "Alarms, Buzzers, and Sirens" H 9700 1400 50  0001 C CNN "Category"
+F 7 "AUDIO PIEZO TRANSDUCER 12.5V SMD" H 9700 1400 50  0001 C CNN "Description"
+F 8 "Murata" H 9700 1400 50  0001 C CNN "Manufacturer"
+	1    9700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:ANTENNA-IFA-2.4GHZ AE1
+U 1 1 5EA0F03D
+P 10150 3450
+F 0 "AE1" H 10294 3439 50  0000 L CNN
+F 1 "ANTENNA-IFA-2.4GHZ" H 10075 3450 50  0000 R CNN
+F 2 "global-library:ANTENNA-IFA-2.4GHZ" H 10150 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/an/swra117d/swra117d.pdf" H 10150 3450 50  0001 C CNN
+	1    10150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:15pF C4
+U 1 1 5E9FAD29
+P 2350 6350
+F 0 "C4" H 2465 6396 50  0000 L CNN
+F 1 "15pF" H 2375 6250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2388 6200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H150FB01-01.pdf" H 2350 6350 50  0001 C CNN
+F 4 "490-11191-1-ND" H 2350 6350 50  0001 C CNN "Digi-Key_PN"
+F 5 "GJM1555C1H150FB01D" H 2350 6350 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 2350 6350 50  0001 C CNN "Category"
+F 7 "CAP CER 15PF 50V C0G/NP0 0402" H 2350 6350 50  0001 C CNN "Description"
+F 8 "Murata" H 2350 6350 50  0001 C CNN "Manufacturer"
+	1    2350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:15pF C2
+U 1 1 5E9FA67C
+P 1700 6350
+F 0 "C2" H 1815 6396 50  0000 L CNN
+F 1 "15pF" H 1725 6250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1738 6200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H150FB01-01.pdf" H 1700 6350 50  0001 C CNN
+F 4 "490-11191-1-ND" H 1700 6350 50  0001 C CNN "Digi-Key_PN"
+F 5 "GJM1555C1H150FB01D" H 1700 6350 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 1700 6350 50  0001 C CNN "Category"
+F 7 "CAP CER 15PF 50V C0G/NP0 0402" H 1700 6350 50  0001 C CNN "Description"
+F 8 "Murata" H 1700 6350 50  0001 C CNN "Manufacturer"
+	1    1700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:22pF C1
+U 1 1 5E9F9447
+P 1700 5150
+F 0 "C1" H 1815 5196 50  0000 L CNN
+F 1 "22pF" H 1725 5050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1738 5000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H220FA16-01.pdf" H 1700 5150 50  0001 C CNN
+F 4 "490-16451-1-ND" H 1700 5150 50  0001 C CNN "Digi-Key_PN"
+F 5 "GCM1555C1H220FA16D" H 1700 5150 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 1700 5150 50  0001 C CNN "Category"
+F 7 "CAP CER 22PF 50V C0G/NP0 0402" H 1700 5150 50  0001 C CNN "Description"
+F 8 "Murata" H 1700 5150 50  0001 C CNN "Manufacturer"
+	1    1700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:22pF C3
+U 1 1 5E9F8E34
+P 2350 5150
+F 0 "C3" H 2465 5196 50  0000 L CNN
+F 1 "22pF" H 2375 5050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2388 5000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H220FA16-01.pdf" H 2350 5150 50  0001 C CNN
+F 4 "490-16451-1-ND" H 2350 5150 50  0001 C CNN "Digi-Key_PN"
+F 5 "GCM1555C1H220FA16D" H 2350 5150 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 2350 5150 50  0001 C CNN "Category"
+F 7 "CAP CER 22PF 50V C0G/NP0 0402" H 2350 5150 50  0001 C CNN "Description"
+F 8 "Murata" H 2350 5150 50  0001 C CNN "Manufacturer"
+	1    2350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:1k R3
+U 1 1 5E9E823D
+P 9100 1350
+F 0 "R3" H 9030 1304 50  0000 R CNN
+F 1 "1k" H 9125 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9138 1200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-071KP/YAG1254CT-ND/4935369" H 9100 1350 50  0001 C CNN
+F 4 "YAG1254CT-ND" H 9100 1350 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0402FR-071KP" H 9100 1350 50  0001 C CNN "MPN"
+F 6 "Chip Resistor - Surface Mount" H 9100 1350 50  0001 C CNN "Category"
+F 7 "RES SMD 1K OHM 1% 1/16W 0402" H 9100 1350 50  0001 C CNN "Description"
+F 8 "Yageo" H 9100 1350 50  0001 C CNN "Manufacturer"
+	1    9100 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L global-library:100k R2
+U 1 1 5E9E70EB
+P 8800 2300
+F 0 "R2" H 8870 2346 50  0000 L CNN
+F 1 "100k" H 8825 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8838 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8800 2300 50  0001 C CNN
+F 4 "311-100KLRCT-ND" H 8800 2300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0402FR-07100KL" H 8800 2300 50  0001 C CNN "MPN"
+F 6 "Chip Resistor - Surface Mount" H 8800 2300 50  0001 C CNN "Category"
+F 7 "RES SMD 100K OHM 1% 1/16W 0402" H 8800 2300 50  0001 C CNN "Description"
+F 8 "Yageo" H 8800 2300 50  0001 C CNN "Manufacturer"
+	1    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:1k R1
+U 1 1 5E9E6404
+P 8500 2050
+F 0 "R1" V 8293 2050 50  0000 C CNN
+F 1 "1k" H 8525 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8538 1900 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-071KP/YAG1254CT-ND/4935369" H 8500 2050 50  0001 C CNN
+F 4 "YAG1254CT-ND" H 8500 2050 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0402FR-071KP" H 8500 2050 50  0001 C CNN "MPN"
+F 6 "Chip Resistor - Surface Mount" H 8500 2050 50  0001 C CNN "Category"
+F 7 "RES SMD 1K OHM 1% 1/16W 0402" H 8500 2050 50  0001 C CNN "Description"
+F 8 "Yageo" H 8500 2050 50  0001 C CNN "Manufacturer"
+	1    8500 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L global-library:3.3nH L3
+U 1 1 5E9DEFCE
+P 9450 3850
+F 0 "L3" V 9645 3850 50  0000 C CNN
+F 1 "3.3nH" H 9475 3750 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 9488 3700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0007.pdf" H 9450 3850 50  0001 C CNN
+F 4 "490-11743-2-ND" H 9450 3850 50  0001 C CNN "Digi-Key_PN"
+F 5 "LQP15MN3N3W02D" H 9450 3850 50  0001 C CNN "MPN"
+F 6 "Fixed Inductors" H 9450 3850 50  0001 C CNN "Category"
+F 7 "3.3nH Unshielded Thick Film Inductor 190mA 400mOhm Max 0402 (1005 Metric)" H 9450 3850 50  0001 C CNN "Description"
+F 8 "Murata" H 9450 3850 50  0001 C CNN "Manufacturer"
+	1    9450 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L global-library:1.0pF C13
+U 1 1 5E9BD9A1
+P 9050 4050
+F 0 "C13" H 9165 4096 50  0000 L CNN
+F 1 "1.0pF" H 9075 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9088 3900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H1R0CA16-01.pdf" H 9050 4050 50  0001 C CNN
+F 4 "490-17745-1-ND" H 9050 4050 50  0001 C CNN "Digi-Key_PN"
+F 5 "GCM1555C1H1R0CA16J" H 9050 4050 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 9050 4050 50  0001 C CNN "Category"
+F 7 "CAP CER 1PF 50V C0G/NP0 0402" H 9050 4050 50  0001 C CNN "Description"
+F 8 "Murata" H 9050 4050 50  0001 C CNN "Manufacturer"
+	1    9050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:1.5pF C14
+U 1 1 5E9BE781
+P 9850 4050
+F 0 "C14" H 9965 4096 50  0000 L CNN
+F 1 "1.5pF" H 9875 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9888 3900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H1R5JA16-01.pdf" H 9850 4050 50  0001 C CNN
+F 4 "490-16452-1-ND" H 9850 4050 50  0001 C CNN "Digi-Key_PN"
+F 5 "GCM1555C1H1R5JA16D" H 9850 4050 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 9850 4050 50  0001 C CNN "Category"
+F 7 "CAP CER 1.5PF 50V C0G/NP0 0402" H 9850 4050 50  0001 C CNN "Description"
+F 8 "Murata" H 9850 4050 50  0001 C CNN "Manufacturer"
+	1    9850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:100nF C8
+U 1 1 5E9B7477
+P 5300 1500
+F 0 "C8" H 5415 1546 50  0000 L CNN
+F 1 "100nF" H 5325 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 1350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 5300 1500 50  0001 C CNN
+F 4 "490-14603-1-ND" H 5300 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM155R71E104KE14J" H 5300 1500 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 5300 1500 50  0001 C CNN "Category"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 5300 1500 50  0001 C CNN "Description"
+F 8 "Murata" H 5300 1500 50  0001 C CNN "Manufacturer"
+	1    5300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:100nF C7
+U 1 1 5E9B6796
+P 4000 1500
+F 0 "C7" H 4115 1546 50  0000 L CNN
+F 1 "100nF" H 4025 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4038 1350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 4000 1500 50  0001 C CNN
+F 4 "490-14603-1-ND" H 4000 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM155R71E104KE14J" H 4000 1500 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 4000 1500 50  0001 C CNN "Category"
+F 7 "CAP CER 0.1UF 25V X7R 0402" H 4000 1500 50  0001 C CNN "Description"
+F 8 "Murata" H 4000 1500 50  0001 C CNN "Manufacturer"
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:1nF C6
+U 1 1 5E9B6189
+P 3550 1500
+F 0 "C6" H 3665 1546 50  0000 L CNN
+F 1 "1nF" H 3575 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3588 1350 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us" H 3550 1500 50  0001 C CNN
+F 4 "490-4761-1-ND" H 3550 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "GCM155R71H102KA37D" H 3550 1500 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 3550 1500 50  0001 C CNN "Category"
+F 7 "CAP CER 1000PF 50V X7R 0402" H 3550 1500 50  0001 C CNN "Description"
+F 8 "Murata" H 3550 1500 50  0001 C CNN "Manufacturer"
+	1    3550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:47nF C10
+U 1 1 5E9B5480
+P 6200 1500
+F 0 "C10" H 6315 1546 50  0000 L CNN
+F 1 "47nF" H 6225 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 1350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H473KE14-01.pdf" H 6200 1500 50  0001 C CNN
+F 4 "490-10702-1-ND" H 6200 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "GRM155R71H473KE14D" H 6200 1500 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 6200 1500 50  0001 C CNN "Category"
+F 7 "CAP CER 0.047UF 50V X7R 0402" H 6200 1500 50  0001 C CNN "Description"
+F 8 "Murata" H 6200 1500 50  0001 C CNN "Manufacturer"
+	1    6200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:1nF C5
+U 1 1 5E9B4763
+P 3000 1500
+F 0 "C5" H 3115 1546 50  0000 L CNN
+F 1 "1nF" H 3025 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3038 1350 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us" H 3000 1500 50  0001 C CNN
+F 4 "490-4761-1-ND" H 3000 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "GCM155R71H102KA37D" H 3000 1500 50  0001 C CNN "MPN"
+F 6 "Ceramic Capacitors" H 3000 1500 50  0001 C CNN "Category"
+F 7 "CAP CER 1000PF 50V X7R 0402" H 3000 1500 50  0001 C CNN "Description"
+F 8 "Murata" H 3000 1500 50  0001 C CNN "Manufacturer"
+	1    3000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L global-library:CONN4PROG J1
+U 1 1 5E99C967
+P 1850 1200
+F 0 "J1" H 1822 1174 50  0000 R CNN
+F 1 "CONN4PROG" H 1850 900 50  0000 C CNN
+F 2 "global-library:CONN4PROG" H 1850 1200 50  0001 C CNN
+F 3 "~" H 1850 1200 50  0001 C CNN
+	1    1850 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5EAC31FB
+P 9400 1100
+F 0 "#PWR04" H 9400 950 50  0001 C CNN
+F 1 "VCC" H 9400 1250 50  0000 C CNN
+F 2 "" H 9400 1100 50  0001 C CNN
+F 3 "" H 9400 1100 50  0001 C CNN
+	1    9400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5EAA35C4
+P 9350 2550
+F 0 "#PWR06" H 9350 2300 50  0001 C CNN
+F 1 "GND" H 9350 2400 50  0000 C CNN
+F 2 "" H 9350 2550 50  0001 C CNN
+F 3 "" H 9350 2550 50  0001 C CNN
+	1    9350 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5EAA302A
+P 8800 2550
+F 0 "#PWR05" H 8800 2300 50  0001 C CNN
+F 1 "GND" H 8800 2400 50  0000 C CNN
+F 2 "" H 8800 2550 50  0001 C CNN
+F 3 "" H 8800 2550 50  0001 C CNN
+	1    8800 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5EA7608E
+P 5550 1250
+F 0 "#PWR02" H 5550 1100 50  0001 C CNN
+F 1 "VCC" H 5550 1400 50  0000 C CNN
+F 2 "" H 5550 1250 50  0001 C CNN
+F 3 "" H 5550 1250 50  0001 C CNN
+	1    5550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5EA75922
+P 3900 1000
+F 0 "#PWR01" H 3900 850 50  0001 C CNN
+F 1 "VCC" H 3900 1150 50  0000 C CNN
+F 2 "" H 3900 1000 50  0001 C CNN
+F 3 "" H 3900 1000 50  0001 C CNN
+	1    3900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E9885AA
+P 9850 4250
+F 0 "#PWR07" H 9850 4000 50  0001 C CNN
+F 1 "GND" H 9850 4100 50  0000 C CNN
+F 2 "" H 9850 4250 50  0001 C CNN
+F 3 "" H 9850 4250 50  0001 C CNN
+	1    9850 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5E97B029
+P 10250 3950
+F 0 "#PWR0116" H 10250 3700 50  0001 C CNN
+F 1 "GND" H 10250 3800 50  0000 C CNN
+F 2 "" H 10250 3950 50  0001 C CNN
+F 3 "" H 10250 3950 50  0001 C CNN
+	1    10250 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E9D1145
+P 1050 1400
+F 0 "#PWR0115" H 1050 1150 50  0001 C CNN
+F 1 "GND" H 1050 1250 50  0000 C CNN
+F 2 "" H 1050 1400 50  0001 C CNN
+F 3 "" H 1050 1400 50  0001 C CNN
+	1    1050 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 5E9CA57E
+P 1050 1100
+F 0 "#PWR0114" H 1050 950 50  0001 C CNN
+F 1 "VCC" H 1050 1250 50  0000 C CNN
+F 2 "" H 1050 1100 50  0001 C CNN
+F 3 "" H 1050 1100 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E9C84D0
+P 1300 3450
+F 0 "#PWR0113" H 1300 3200 50  0001 C CNN
+F 1 "GND" H 1300 3300 50  0000 C CNN
+F 2 "" H 1300 3450 50  0001 C CNN
+F 3 "" H 1300 3450 50  0001 C CNN
+	1    1300 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 5E9C74A2
+P 1300 3150
+F 0 "#PWR0112" H 1300 3000 50  0001 C CNN
+F 1 "VCC" H 1300 3300 50  0000 C CNN
+F 2 "" H 1300 3150 50  0001 C CNN
+F 3 "" H 1300 3150 50  0001 C CNN
+	1    1300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5E9B8CA3
+P 3000 1700
+F 0 "#PWR0111" H 3000 1450 50  0001 C CNN
+F 1 "GND" H 3000 1550 50  0000 C CNN
+F 2 "" H 3000 1700 50  0001 C CNN
+F 3 "" H 3000 1700 50  0001 C CNN
+	1    3000 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E991834
+P 9050 4250
+F 0 "#PWR0110" H 9050 4000 50  0001 C CNN
+F 1 "GND" H 9050 4100 50  0000 C CNN
+F 2 "" H 9050 4250 50  0001 C CNN
+F 3 "" H 9050 4250 50  0001 C CNN
+	1    9050 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E980B36
+P 2000 6700
+F 0 "#PWR0109" H 2000 6450 50  0001 C CNN
+F 1 "GND" H 2000 6550 50  0000 C CNN
+F 2 "" H 2000 6700 50  0001 C CNN
+F 3 "" H 2000 6700 50  0001 C CNN
+	1    2000 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E96A09E
+P 4800 6400
+F 0 "#PWR0108" H 4800 6150 50  0001 C CNN
+F 1 "GND" H 4800 6250 50  0000 C CNN
+F 2 "" H 4800 6400 50  0001 C CNN
+F 3 "" H 4800 6400 50  0001 C CNN
+	1    4800 6400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E9343AF
+P 4000 1700
+F 0 "#PWR0106" H 4000 1450 50  0001 C CNN
+F 1 "GND" H 4000 1550 50  0000 C CNN
+F 2 "" H 4000 1700 50  0001 C CNN
+F 3 "" H 4000 1700 50  0001 C CNN
+	1    4000 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E933859
+P 3550 1700
+F 0 "#PWR0105" H 3550 1450 50  0001 C CNN
+F 1 "GND" H 3550 1550 50  0000 C CNN
+F 2 "" H 3550 1700 50  0001 C CNN
+F 3 "" H 3550 1700 50  0001 C CNN
+	1    3550 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E930644
+P 5750 1700
+F 0 "#PWR0104" H 5750 1450 50  0001 C CNN
+F 1 "GND" H 5750 1550 50  0000 C CNN
+F 2 "" H 5750 1700 50  0001 C CNN
+F 3 "" H 5750 1700 50  0001 C CNN
+	1    5750 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E92B7D2
+P 6200 1700
+F 0 "#PWR0103" H 6200 1450 50  0001 C CNN
+F 1 "GND" H 6200 1550 50  0000 C CNN
+F 2 "" H 6200 1700 50  0001 C CNN
+F 3 "" H 6200 1700 50  0001 C CNN
+	1    6200 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E92875B
+P 5300 1700
+F 0 "#PWR0102" H 5300 1450 50  0001 C CNN
+F 1 "GND" H 5300 1550 50  0000 C CNN
+F 2 "" H 5300 1700 50  0001 C CNN
+F 3 "" H 5300 1700 50  0001 C CNN
+	1    5300 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E91E1CB
+P 2000 5500
+F 0 "#PWR0101" H 2000 5250 50  0001 C CNN
+F 1 "GND" H 2000 5350 50  0000 C CNN
+F 2 "" H 2000 5500 50  0001 C CNN
+F 3 "" H 2000 5500 50  0001 C CNN
+	1    2000 5500
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
