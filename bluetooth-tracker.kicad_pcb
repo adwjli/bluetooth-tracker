@@ -72,8 +72,8 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 0 0)
-    (grid_origin 40 136.3)
+    (aux_axis_origin 64.4 72)
+    (grid_origin 64.4 72)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x000fc_ffffffff)
@@ -101,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "assembly"))
+      (outputdirectory "gerber"))
   )
 
   (net 0 "")
@@ -1149,7 +1149,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (dimension 35 (width 0.2) (layer Cmts.User)
-    (gr_text "35.000 mm" (at 72.9 87.799998 360) (layer Cmts.User)
+    (gr_text "35.000 mm" (at 72.9 87.799998) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.2)))
     )
     (feature1 (pts (xy 90.4 72) (xy 90.4 87.08642)))
