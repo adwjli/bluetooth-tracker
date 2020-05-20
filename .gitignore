@@ -2,6 +2,7 @@
 
 # Kicad project folders
 tmp/
+svg/
 
 # Kicad project files
 fp-info-cache

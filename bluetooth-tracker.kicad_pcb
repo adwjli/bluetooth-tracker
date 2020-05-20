@@ -97,11 +97,11 @@
       (plotinvisibletext false)
       (padsonsilk true)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber"))
+      (outputdirectory "svg"))
   )
 
   (net 0 "")
