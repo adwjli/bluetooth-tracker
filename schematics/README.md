@@ -1,3 +1,3 @@
-# Schematic
+# Schematics
 
-![Schematic.](sch-bluetooth-tracker.jpg)
+![Schematics.](sch-bluetooth-tracker.jpg)
