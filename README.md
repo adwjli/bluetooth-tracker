@@ -5,6 +5,8 @@ A Bluetooth Tracker inspired by the Tile Mate Bluetooth Tracker, built around th
 
 The design of the trace antenna was provided by Texas Instrument in Application Note AN043. It is an Inverted F Antenna (IFA) with a matched 50 Ohm characteristic impendance at 2.4GHz. The device is capable of up to 4dBm of transmit power.
 
+## Gallery
+
 ![Bluetooth Tracker PCB with enclosure.](media/scene1.jpg)
 
 ![Bleutooth Tracker PCB close up.](media/scene3.jpg)
