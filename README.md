@@ -15,4 +15,6 @@ The design of the trace antenna was provided by Texas Instrument in Application 
 
 ![Bluetooth Tracker PCB, top and bottom, bare PCB.](media/scene5.jpg)
 
+## Copper Layers
+
 ![PCB copper layers.](media/copper-layers.jpg)
