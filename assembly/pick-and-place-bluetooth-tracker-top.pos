@@ -1,0 +1,26 @@
+### Module positions - created on Monday, 25 May 2020 at 09:01:47 pm ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                             PosX       PosY       Rot  Side
+BZ1       PKMCS0909E4000-R1     Piezo_9x9mm_PKLCS1212E40A1-R1    16.0000    21.3000  180.0000  top
+C1        22pF                  C_0402_1005Metric                 7.0000    11.1000  270.0000  top
+C2        15pF                  C_0402_1005Metric                -0.1000     9.8000  315.0000  top
+C3        22pF                  C_0402_1005Metric                 6.0000    11.1000  270.0000  top
+C4        15pF                  C_0402_1005Metric                 3.3000     9.4000  225.0000  top
+C5        1nF                   C_0402_1005Metric                 1.2850    14.0000  180.0000  top
+C6        1nF                   C_0402_1005Metric                 0.8000    15.5150  270.0000  top
+C7        100nF                 C_0402_1005Metric                 3.8000    13.5000  270.0000  top
+C8        100nF                 C_0402_1005Metric                 9.7000    20.4000    0.0000  top
+C10       47nF                  C_0402_1005Metric                 0.8000    19.4000   90.0000  top
+C13       1.0pF                 C_0402_1005Metric                -2.5000    19.3850   90.0000  top
+C14       1.5pF                 C_0402_1005Metric                -3.5000    16.4150  270.0000  top
+C15       100nF                 C_0402_1005Metric                 9.7000    16.1000    0.0000  top
+L3        3.3nH                 L_0402_1005Metric                -3.0000    17.9000  180.0000  top
+Q1        FDV301N_G             SOT-23-3_G                        8.6000    24.0000    0.0000  top
+R1        1k                    R_0402_1005Metric                 9.7000    17.6000  180.0000  top
+R2        100k                  R_0402_1005Metric                 9.7000    18.6000  180.0000  top
+R3        1k                    R_0402_1005Metric                 9.7000    21.4000  180.0000  top
+U1        NRF51822-QFAA-T_G     QFN-48-1EP_6x6mmG                 5.0000    18.2000  180.0000  top
+XTAL1     ECS-_327-12_5-34B-TR  SMD-2_3.2x1.5mmG                  6.4186    13.3000  180.0000  top
+## End
